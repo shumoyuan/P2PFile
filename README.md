@@ -1,8 +1,11 @@
 # P2PFile
-Remodeling of P2P file sharing software like BitTorrent in Java
+Remodeled a P2P file sharing software like BitTorrent to enable users to share files using Java language.
 
-Performed the protocol of communication, method of file segmentation and combination
+Enabled peers to send a handshake message before transmission.
 
-Finished the method of piece information sharing, choking-unchoking mechanism, piece request process
+Improved file sharing efficiency by coding communication protocol, file splitting and combining rules.
+
+Transformed 1GB file among 6 users in 10 seconds, tested by Apache JMeter.
+
 
 main class: peerProcess
